@@ -1,0 +1,29 @@
+GET http://localhost:9000/api/accounts
+
+####
+
+GET http://localhost:9000/api/accounts/1
+
+####
+
+POST http://localhost:9000/api/accounts
+Content-Type: application/json
+
+{
+    "name": "account-16",
+    "budget": 1000
+}
+
+####
+
+PUT http://localhost:9000/api/accounts/14
+Content-Type: application/json
+
+{
+    "name": "account-14",
+    "budget": 2000
+}
+
+####
+
+DELETE http://localhost:9000/api/accounts/15
